@@ -5,14 +5,15 @@
     box-sizing: border-box;
 }
 
-img {
+#backgroud-img {
   max-width: 100%;
   height: auto;
-  filter: brightness(50%);
+  filter: brightness(45%);
 }
 
 body{
     background-color: black;
+    font-family: sans-serif;
 }
 
 h1{
@@ -31,7 +32,6 @@ nav{
     padding-top: 20px;
     padding-left: 4%;
     font-size: 1.8rem;
-    font-family: sans-serif;
     font-weight: bolder;
     font-stretch: ultra-condensed;
     top: 0%;
@@ -60,7 +60,6 @@ button:hover{
     text-align: center;
     top: 27%;
     left: 27%;
-    font-family: sans-serif;
 }
 
 .center h2{
@@ -90,4 +89,134 @@ button:hover{
     border-width: 0px;
     padding: 2% 6% 2.5% 6%;
     font-size: 22px;
+}
+
+hr{
+    position: relative;
+    height: 5px;
+    border: 0px;
+    background-color: #757575;
+}
+
+/* .enjoy-tv{
+    position: relative;
+}
+
+.enjoy-tv .left{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.left h2{
+    font-size: 3rem;
+    margin-bottom: 3%;
+}
+.left p{
+    font-size: 1.5rem;
+}
+.enjoy-tv .right{
+    width: 50%;
+    float: right;
+}
+.right img{
+    width: 85%;
+    margin-left: 5%;
+}
+
+.right video{
+    position: absolute;
+    width:30% ;
+    margin-top: 6.8%;
+    margin-left: 9%;
+} */
+
+.enjoy-tv{
+    position: relative;
+    margin-bottom: 35%;
+}
+
+.enjoy-tv .left{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.left h2{
+    font-size: 3rem;
+    margin-bottom: 3%;
+}
+
+.left p{
+    font-size: 1.5rem;
+}
+
+.enjoy-tv .right{
+    width: 50%;
+    float: right;
+}
+
+.right video{
+    width:59% ;
+    margin-top: 11%;
+    margin-left: 20%;
+}
+
+.right img{
+    position: absolute;
+    width: 40%;
+    margin-left: -35%;
+}
+/* 2nd */
+
+.mac-tv video{
+    width:55% ;
+    margin-top: 17%;
+}
+
+.mac-tv img{
+    margin-top: 4%;
+    width: 43%;
+    margin-left: -35%;
+}
+
+.watch-everyware .left{
+    margin-top: 14%;
+}
+
+/* 3rd */
+.mobile-tv{
+    position: relative;
+    
+    margin-bottom: 5%;
+}
+
+.mobile-tv .mobile-left{
+    width: 30%;
+    float: left;
+    
+}
+
+.mobile-right h2{
+    font-size: 3rem;
+    margin-bottom: 3%;
+}
+
+.mobile-right p{
+    font-size: 1.5rem;
+}
+
+.mobile-right{
+    float: right;
+    width: 42%;
+    margin-right: 5%;
+    margin-top: -20%;
+}
+
+.mobile-left img{
+    
+   width: 100%;
+    margin-left: -10%;
 }
