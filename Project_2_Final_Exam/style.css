@@ -4,14 +4,17 @@
     color: aliceblue;
     box-sizing: border-box;
 }
+
 img {
   max-width: 100%;
   height: auto;
-  /* filter: brightness(50%); */
+  filter: brightness(50%);
 }
+
 body{
     background-color: black;
 }
+
 h1{
     display: inline;
     color: red;
@@ -31,8 +34,7 @@ nav{
     font-family: sans-serif;
     font-weight: bolder;
     font-stretch: ultra-condensed;
-
-    
+    top: 0%;
 }
 
 .top-right{
@@ -47,6 +49,10 @@ nav{
 
 button{
     background-color: red;
+}
+
+button:hover{
+    cursor: pointer;
 }
 
 .center{
@@ -77,11 +83,11 @@ button{
     border-width: 0px;
     padding: 3.3% 30% 3% 3%;
     font-size: 1rem;
+    color: black;
 }
 
 .center button{
     border-width: 0px;
     padding: 2% 6% 2.5% 6%;
     font-size: 22px;
-    
 }
