@@ -272,3 +272,75 @@ hr{
     padding: 2% 6% 2.5% 6%;
     font-size: 22px;
 }
+
+/* Footer */
+
+footer{
+    margin: 0% 5%;
+    padding: 6% 10% 0% 10%;
+}
+
+.wrapper-footer{
+    padding-bottom: 6%;
+}
+
+footer li , a, ul ,h5{
+    text-decoration: none;
+    list-style: none;
+    color: #7c7c7c;
+}
+
+footer li{
+    padding: 1%;
+    font-size: small;
+}
+
+footer h4{
+    padding-bottom: 3%;
+}
+
+footer h5{
+    font-size: 1.03rem;
+    display: block;
+    padding-top: 20%;
+}
+
+@media (min-width: 774px) {
+    .col-3{
+        width: 25%;
+        float: left;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 773px) {
+    .col-3{
+        width: 33.3%;
+        float: left;
+    }
+
+    li{
+        margin: 2%;
+    }
+}
+
+.credit{
+    /* display: inline; */
+    /* padding: 10%;
+    margin-top: 10%; */
+    text-align: center;
+    /* display: inline; */
+}
+
+#Profile-Id{
+    width: 5%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 3%;
+    padding-bottom: 1%;
+    /* display: inline; */
+}
+
+.credit h2{
+    margin-bottom: 3% ;
+}
+
