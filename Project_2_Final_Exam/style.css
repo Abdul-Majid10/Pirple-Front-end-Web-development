@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+@media (min-width: 933px) {
+    .min-screen-message{
+        display: none;
+    }
+    
+}
+
 #backgroud-img {
   max-width: 100%;
   height: auto;
@@ -344,3 +351,9 @@ footer h5{
     margin-bottom: 3% ;
 }
 
+@media (max-width: 932px) {
+    .main-content{
+        display: none;
+    }
+    
+}
