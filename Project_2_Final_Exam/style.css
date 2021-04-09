@@ -302,6 +302,10 @@ footer li{
     font-size: small;
 }
 
+footer li:hover, h4:hover{
+    text-decoration: underline;
+}
+
 footer h4{
     padding-bottom: 3%;
 }
@@ -349,6 +353,10 @@ footer h5{
 
 .credit h2{
     margin-bottom: 3% ;
+}
+
+.credit h2 a{
+    color : aliceblue;
 }
 
 @media (max-width: 932px) {
