@@ -188,15 +188,8 @@ hr{
 
 /* 3rd */
 .mobile-tv{
-    position: relative;
-    
+    position: relative; 
     margin-bottom: 5%;
-}
-
-.mobile-tv .mobile-left{
-    width: 30%;
-    float: left;
-    
 }
 
 .mobile-right h2{
@@ -212,11 +205,70 @@ hr{
     float: right;
     width: 42%;
     margin-right: 5%;
-    margin-top: -20%;
+    margin-top: -24%;
 }
 
 .mobile-left img{
+    margin-top: 6%;
+    margin-left: 6%;
+}
+
+/* FAQ portion*/
+.FAQ{
+    padding: 6% 5%;
+   
+}
+
+.FAQ h2{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.wrapper {
+    margin: 4% 14% 0% 14%;
+}
+
+.wrapper h3, .sign {
+    display: inline;
+}
+
+.wrapper div{
+    background-color: #303030;
+    padding: 3%;
+    margin: 1%;
+    font-size: 1.3rem;
+}
+
+.wrapper .sign{
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    font-size: 2rem;
+    background: none;
+}
+
+.FAQ p{
+    margin-top: 4%;
+    font-size: 19px;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.FAQ input{
+    border-width: 0px;
+    padding: 3% 30% 3% 3%;
+    font-size: 1rem;
+    color: black;
     
-   width: 100%;
-    margin-left: -10%;
+}
+.FAQ .center-feild{
+    padding: 0px;
+    background: none;
+    text-align: center;
+}
+
+.FAQ button{
+    border-width: 0px;
+    padding: 2% 6% 2.5% 6%;
+    font-size: 22px;
 }
