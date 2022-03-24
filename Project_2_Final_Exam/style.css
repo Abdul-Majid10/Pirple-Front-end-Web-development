@@ -1,40 +1,33 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     color: aliceblue;
     box-sizing: border-box;
 }
 
-@media (min-width: 933px) {
-    .min-screen-message{
-        display: none;
-    }
-    
-}
-
 #backgroud-img {
-  max-width: 100%;
-  height: auto;
-  filter: brightness(45%);
+    max-width: 100%;
+    height: auto;
+    filter: brightness(45%);
 }
 
-body{
+body {
     background-color: black;
     font-family: sans-serif;
 }
 
-h1{
+h1 {
     display: inline;
     color: red;
 }
 
-.stater-container{
+.stater-container {
     max-width: 100%;
     height: auto;
 }
 
-nav{
-    position:absolute;
+nav {
+    position: absolute;
     width: 96%;
     padding-top: 20px;
     padding-left: 4%;
@@ -44,7 +37,7 @@ nav{
     top: 0%;
 }
 
-.top-right{
+.top-right {
     float: right;
     padding: 0.7% 1.4%;
     border-width: 0px;
@@ -54,145 +47,141 @@ nav{
     margin-top: 8px;
 }
 
-button{
+button {
     background-color: red;
-}
-
-button:hover{
     cursor: pointer;
 }
 
-.center{
-    position: absolute;
+.center {
     text-align: center;
-    top: 27%;
-    left: 27%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.center h2{
+.center h2 {
     font-size: 3rem;
 }
 
-.center h3{
+.center h3 {
     font-size: 1.7rem;
     font-weight: lighter;
     margin-top: 10px;
 }
 
-.center p{
+.center p {
     margin-top: 3%;
     font-size: 19px;
     margin-bottom: 1%;
 }
 
-.center input{
+.center input {
     border-width: 0px;
     padding: 3.3% 30% 3% 3%;
     font-size: 1rem;
     color: black;
 }
 
-.center button{
+.center button {
     border-width: 0px;
-    padding: 2% 6% 2.5% 6%;
-    font-size: 22px;
+    padding: 3% 5% 2.5% 5%;
+    font-size: 1.2rem;
 }
 
-hr{
+hr {
     position: relative;
     height: 5px;
     border: 0px;
     background-color: #757575;
 }
 
-.enjoy-tv{
+.enjoy-tv {
     position: relative;
     margin-bottom: 35%;
 }
 
-.enjoy-tv .left{
+.enjoy-tv .left {
     width: 40%;
     float: left;
     margin-left: 5%;
     margin-top: 10%;
 }
 
-.left h2{
+.left h2 {
     font-size: 3rem;
     margin-bottom: 3%;
 }
 
-.left p{
+.left p {
     font-size: 1.5rem;
 }
 
-.enjoy-tv .right{
+.enjoy-tv .right {
     width: 50%;
     float: right;
 }
 
-.right video{
-    width:59% ;
+.right video {
+    width: 59%;
     margin-top: 11%;
     margin-left: 20%;
 }
 
-.right img{
+.right img {
     position: absolute;
     width: 40%;
     margin-left: -35%;
 }
 /* 2nd */
 
-.mac-tv video{
-    width:55% ;
+.mac-tv video {
+    width: 55%;
     margin-top: 17%;
 }
 
-.mac-tv img{
+.mac-tv img {
     margin-top: 4%;
     width: 43%;
     margin-left: -35%;
 }
 
-.watch-everyware .left{
+.watch-everyware .left {
     margin-top: 14%;
 }
 
 /* 3rd */
-.mobile-tv{
-    position: relative; 
+.mobile-tv {
+    position: relative;
     margin-bottom: 5%;
 }
 
-.mobile-right h2{
+.mobile-right h2 {
     font-size: 3rem;
     margin-bottom: 3%;
 }
 
-.mobile-right p{
+.mobile-right p {
     font-size: 1.5rem;
 }
 
-.mobile-right{
+.mobile-right {
     float: right;
     width: 42%;
     margin-right: 5%;
     margin-top: -24%;
 }
 
-.mobile-left img{
+.mobile-left img {
     margin-top: 6%;
     margin-left: 6%;
 }
 
 /* FAQ portion*/
-.FAQ{
+.FAQ {
     padding: 6% 5%;
-   
 }
 
-.FAQ h2{
+.FAQ h2 {
     font-size: 3rem;
     text-align: center;
 }
@@ -201,18 +190,19 @@ hr{
     margin: 4% 14% 0% 14%;
 }
 
-.wrapper h3, .sign {
+.wrapper h3,
+.sign {
     display: inline;
 }
 
-.wrapper div{
+.wrapper div {
     background-color: #303030;
     padding: 3%;
     margin: 1%;
     font-size: 1.3rem;
 }
 
-.wrapper .sign{
+.wrapper .sign {
     float: right;
     margin: 0px;
     padding: 0px;
@@ -220,27 +210,26 @@ hr{
     background: none;
 }
 
-.FAQ p{
+.FAQ p {
     margin-top: 4%;
     font-size: 19px;
     margin-bottom: 2%;
     text-align: center;
 }
 
-.FAQ input{
+.FAQ input {
     border-width: 0px;
     padding: 3% 30% 3% 3%;
     font-size: 1rem;
     color: black;
-    
 }
-.FAQ .center-feild{
+.FAQ .center-feild {
     padding: 0px;
     background: none;
     text-align: center;
 }
 
-.FAQ button{
+.FAQ button {
     border-width: 0px;
     padding: 2% 6% 2.5% 6%;
     font-size: 22px;
@@ -248,63 +237,49 @@ hr{
 
 /* Footer */
 
-footer{
+footer {
     margin: 0% 5%;
     padding: 6% 10% 0% 10%;
 }
 
-.wrapper-footer{
+.wrapper-footer {
     padding-bottom: 6%;
 }
 
-footer li , a, ul ,h5{
+footer li,
+a,
+ul,
+h5 {
     text-decoration: none;
     list-style: none;
     color: #7c7c7c;
 }
 
-footer li{
+footer li {
     padding: 1%;
     font-size: small;
 }
 
-footer li:hover, h4:hover{
+footer li:hover,
+h4:hover {
     text-decoration: underline;
 }
 
-footer h4{
+footer h4 {
     padding-bottom: 3%;
 }
 
-footer h5{
+footer h5 {
     font-size: 1.03rem;
     display: block;
-    padding-top: 20%;
+    padding-top: 5%;
 }
 
-@media (min-width: 774px) {
-    .col-3{
-        width: 25%;
-        float: left;
-    }
-}
-
-@media (min-width: 500px) and (max-width: 773px) {
-    .col-3{
-        width: 33.3%;
-        float: left;
-    }
-
-    li{
-        margin: 2%;
-    }
-}
-
-.credit{
+.credit {
     text-align: center;
 }
 
-#Profile-Id{
+#Profile-Id {
     width: 5%;
     height: auto;
     border-radius: 50%;
@@ -312,17 +287,185 @@ footer h5{
     padding-bottom: 1%;
 }
 
-.credit h2{
-    margin-bottom: 3% ;
+.credit h2 {
+    margin-bottom: 3%;
 }
 
-.credit h2 a{
-    color : aliceblue;
+.credit h2 a {
+    color: aliceblue;
 }
 
-@media (max-width: 932px) {
-    .main-content{
-        display: none;
+footer ul.flex-model li {
+    width: 25%;
+}
+
+.abs {
+    position: absolute;
+}
+
+.rel {
+    position: relative;
+}
+
+.flex-model {
+    display: flex;
+}
+.flex-sb {
+    justify-content: space-between;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-c {
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .center h2,
+    .left h2,
+    .mobile-right h2 {
+        font-size: 2rem;
     }
-    
+
+    .center input {
+        padding: 3.3% 20% 3% 3%;
+    }
+
+    .left p,
+    .mobile-right p {
+        font-size: 1.3rem;
+    }
+
+    footer ul.flex-model li {
+        width: 33.3333%;
+    }
+
+    .center button {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .center h2,
+    .left h2,
+    .mobile-right h2 {
+        font-size: 1.5rem;
+    }
+
+    .center input {
+        padding: 3.3% 10% 3% 3%;
+    }
+
+    .center h3 {
+        font-size: 1rem;
+    }
+    .center p,
+    .left p,
+    .mobile-right p {
+        font-size: 1rem;
+    }
+
+    .center button {
+        padding: 4% 3% 4% 3%;
+        font-size: 0.7rem;
+    }
+
+    .wrapper .sign,
+    .FAQ p {
+        font-size: 1rem;
+    }
+
+    .wrapper div {
+        padding: 2%;
+        font-size: 1rem;
+    }
+
+    .FAQ input {
+        border-width: 0px;
+        padding: 3% 20% 3% 3%;
+        font-size: 1rem;
+        color: black;
+    }
+
+    .FAQ button {
+        border-width: 0px;
+        padding: 2% 3% 2.5% 3%;
+        font-size: 1.2rem;
+    }
+
+    footer ul.flex-model li {
+        width: 50%;
+    }
+
+    .mobile-left img {
+        width: 15rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    h1.top-left,
+    .FAQ h2 {
+        font-size: 1.5rem;
+    }
+
+    footer ul.flex-model li {
+        width: 100%;
+    }
+
+    .credit h2 a {
+        font-size: 1rem;
+    }
+
+    .center {
+        top: 60%;
+    }
+
+    .center h2,
+    .left h2,
+    .mobile-right h2 {
+        font-size: 1rem;
+    }
+
+    .center h3 {
+        font-size: 0.8rem;
+    }
+
+    .center p,
+    .left p,
+    .mobile-right p,
+    .center button,
+    .center input {
+        font-size: 0.6rem;
+    }
+
+    .center button {
+        font-size: 0.5rem;
+    }
+
+    .center input {
+        padding: 3.3% 5% 3% 3%;
+    }
+
+    .mobile-left img {
+        width: 12rem;
+    }
+
+    .wrapper div,
+    .wrapper .sign,
+    .FAQ p,
+    .FAQ input,
+    .FAQ button {
+        font-size: 0.7rem;
+    }
+
+    .wrapper {
+        margin: 4% 7% 0% 7%;
+    }
+
+    .FAQ input {
+        padding: 2% 10% 2% 5%;
+    }
 }
